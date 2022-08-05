@@ -7,7 +7,7 @@
 }
 
 body {
-    /* background: #020201; */
+    background: #020201;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ html {
     margin-left: -25rem;
     margin-top: -20rem;
     transform-origin: 50% 48%;
-    border-radius: 43%;
+    border-radius: 33%;
     animation: drift 3000ms infinite linear;
     z-index: 1;
 }
@@ -102,12 +102,13 @@ html {
     margin-top: -5.5rem;
     text-align: center;
     font-weight: 800;
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: capitalize;
 }
 
 .fa-street-view {
-    animation: rotates 3s linear infinite ease;
+    animation: rotates 2s linear infinite alternate;
+    color: white;
 }
 
 @keyframes rotates {
